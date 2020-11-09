@@ -1,0 +1,948 @@
+body
+{
+	width: 1144px;
+	margin: auto;
+}
+@font-face
+{
+	font-family: 'barlow';
+	src: url('barlow/Barlow-Light.otf');
+}
+.headernc, .headerc
+{
+	padding: 7px;
+}
+.footer
+{
+	padding-top: 40px;
+	background-color: RGB(0,113,189);
+	height: 150px;
+}
+.headerc
+{
+	height : 85px;
+}
+.sectionindex
+{
+	padding-top: 0px; 
+	margin-bottom: 20px; 
+}
+.sectionsorties, .sectionsortiestype, .sectioncgu, .sectioncgv, .sectionprofil, .sectionamais, 
+.sectioninfosperso, .sectionmodlaphoto, .sectionmodlesinfos, .sectionmodlad, .sectionmodlmdp, .sectionconv, .sectionconvb,
+.sectionmes, .sectionaide, .sectionaideg, .sectionajt
+{
+	padding-top: 0px; 
+	margin-bottom: 20px; 
+	margin-top: 30px;
+}
+.sectioninscription
+{
+	background-color: RGB(245,245,245);
+	border: 3px RGB(155,198,69) solid; 
+	margin-top: 20px; 
+	margin-bottom: 20px; 
+	padding-top: 30px;
+	padding-bottom: 30px; 
+}
+ .sectionprofil, .sectionmodlaphoto, .sectionmodlesinfos, .sectionmodlad, .sectionmodlmdp, .sectionaideg, .div1conv, 
+.div1convb, .div1mes, .div1amais, .div1ajt
+{
+	min-height: 0px; 
+}
+.sectionindex
+{
+	min-height: 0px; 
+}
+.logoheadernc, .logoheaderc
+{
+	float: left;
+}
+.formheadernc
+{
+	display: inline-block;
+	position: relative;
+	margin-left: 25px;
+}
+.menunavheadernc
+{
+	display: inline-block;
+	position: relative;
+}
+.navheaderc
+{
+	display: inline-block;
+	position: relative;
+	top: 40px;
+}
+.inputconnexion
+{
+	border: 1px solid RGB(155,198,69); 
+	border-radius: 2px;
+	height: 37.5px;
+	width: 200px;
+	font-size: 1.5em; 
+}
+.bouton
+{
+	border: 1px solid RGB(155,198,69);
+	background-color: RGB(155,198,69); 
+	color : white; 
+	height: 50px; 
+	min-width: 130px;
+	font-size: 1.2em;  
+	border-radius: 5px; 
+	margin: 0px 30px 0px 30px;
+	box-shadow: 3px 3px 7px RGB(109,141,44); 
+}
+.bouton:hover 
+{
+	border: 1px solid RGB(155,198,69);
+	background-color: RGB(155,198,69); 
+	color : white; 
+	height: 50px; 
+	min-width: 130px;
+	font-size: 1.2em; 
+	border-radius: 5px;
+	box-shadow: 2px 2px 7px RGB(109,141,44); 
+}
+.bouton:active 
+{
+	border: 1px solid RGB(155,198,69);
+	background-color: RGB(155,198,69); 
+	color : white; 
+	height: 50px; 
+	min-width: 130px;
+	font-size: 1.2em; 
+	border-radius: 5px;
+	box-shadow: 2px 2px 7px RGB(109,141,44); 
+}
+.aheadernc
+{
+	text-decoration: none;
+	color: RGB(155,198,69);
+	font-family: trebuchet ms, sans serif;
+	font-size: 1.4em;
+}
+.aheadernc:hover
+{
+	text-decoration: underline;
+	color:  RGB(47,146,252);
+	font-family: trebuchet ms, sans serif;
+	font-size: 1.4em;
+}
+.aheadernc:active
+{
+	text-decoration: underline;
+	color:  RGB(47,146,252);
+	font-family: trebuchet ms, sans serif;
+	font-size: 1.4em;
+}
+.afooter
+{
+	text-decoration: none;
+	color: white;
+	font-family:  barlow,trebuchet ms, sans serif;
+	font-size: 1em;
+}
+.afooter:hover
+{
+	text-decoration: underline;
+	color: RGB(252,210,0);
+	font-family: barlow, trebuchet ms, sans serif;
+	font-size: 1em;
+}
+.afooter:active
+{
+	text-decoration: underline;
+	color: RGB(252,210,0);
+	font-family: barlow, trebuchet ms, sans serif;
+	font-size: 1em;
+}
+.aheaderc
+{
+	text-decoration: none;
+	color: RGB(155,198,69);
+	font-family: trebuchet ms, sans serif;
+	font-size: 2em;
+}
+.aheaderc:hover
+{
+	text-decoration: overline;
+	color: RGB(47,146,252);
+	font-family: trebuchet ms, sans serif;
+	font-size: 2em;
+}
+.aheaderc:active
+{
+	text-decoration: overline;
+	color: RGB(47,146,252);
+	font-family: trebuchet ms, sans serif;
+	font-size: 2em;
+}
+.liheadernc, .lifooter
+{
+	display: inline-block;
+	margin-left: 10px;
+}
+.liheaderc
+{
+	display: inline-block; 
+}
+.liheaderc2
+{
+	margin-left: 50px; 
+}
+.lifooter
+{
+	position: relative;
+	left: 394px;
+}
+.liprofil
+ {
+	text-align: left; 
+ }
+.spanfooter
+{
+	color: white;
+	font-family: barlow, trebuchet ms, sans serif;
+	font-size: 1.4em;
+	position: relative;
+	left: 405px;
+}
+.ulindex, .ulheadernc, .ulfooter, .ulprofil, .ulnavaide, .ulmaison
+{
+	list-style: none;
+}
+.aindex
+{
+	text-decoration: none;
+	color: RGB(47,146,252);
+	font-family: barlow ,trebuchet ms, sans serif;
+	font-size: 1em;
+}
+.aindex:hover
+{
+	text-decoration: underline;
+	color: RGB(252,210,0);
+	font-family: barlow ,trebuchet ms, sans serif;
+	font-size: 1em;
+}
+.aindex:active
+{
+	text-decoration: underline;
+	color: RGB(252,210,0);
+	font-family: barlow ,trebuchet ms, sans serif;
+	font-size: 1em;
+}
+.pinscription
+{
+	width: 29%;
+	margin: auto;
+}
+.inputinscription, .selectinscription
+{
+	width: 293px;
+	background-color: white;
+	margin-bottom: 21px;
+	margin-top: 10px;
+	border: 1px solid grey; 
+	height: 30px; 
+	font-size: 1.3em;
+	border-radius: 3px; 
+}
+.textareames
+{
+	background-color: white;
+	margin-bottom: 21px;
+	margin-top: 10px;
+	border: 1px solid grey; 
+	font-size: 1.3em;
+	border-radius: 3px; 
+}
+.selectsorties, .inputsorties, .inputsortiestype, .input, .selectmodlesinfos, .inputmodlesinfos, .inputmodlad, .inputmodlmdp
+{
+	width: 380px;
+	background-color: white;
+	margin-bottom: 21px;
+	margin-top: 10px;
+	border: 1px solid grey; 
+	height: 30px; 
+	font-size: 1.3em;
+	border-radius: 3px; 
+}
+.input3, .selectsorties2
+{
+	width: 190px;
+	background-color: white;
+	margin-bottom: 21px;
+	margin-top: 10px;
+	border: 1px solid grey; 
+	height: 30px; 
+	font-size: 0.8em;
+	border-radius: 3px; 
+}
+.input4
+{
+	width: 200px;
+	background-color: white;
+	margin-bottom: 21px;
+	margin-top: 10px;
+	border: 1px solid grey; 
+	height: 30px; 
+	font-size: 1em;
+	border-radius: 3px; 
+}
+.input2
+{
+	width: 180px;
+	background-color: white;
+	margin-bottom: 21px;
+	margin-top: 10px;
+	border: 1px solid grey; 
+	height: 30px; 
+	font-size: 1.3em;
+	border-radius: 3px; 
+}
+.inputajtemail, .inputajtcode
+{
+	width: 250px;
+	background-color: white;
+	margin-bottom: 21px;
+	margin-top: 10px;
+	border: 1px solid grey; 
+	height: 30px; 
+	font-size: 1em;
+	border-radius: 3px; 
+}
+.select_gr, .input_gr, .select_rgr
+{
+	width: 150px;
+	background-color: white;
+	margin-bottom: 21px;
+	margin-top: 10px;
+	border: 1px solid grey; 
+	height: 30px; 
+	font-size: 1em;
+	border-radius: 3px; 
+}
+.photoinscription
+{
+	width: 828px;
+	margin: auto;
+	font-family: barlow, trebuchet ms, sans serif;
+	text-align: center;
+	line-height: 30px;
+	height: 174px;
+}
+.photoinscription2
+{
+	float: left;
+	margin: 20px;
+	height: 125px;
+	width: 125px;
+}
+.phraseinscription
+{
+	width: 590px;
+	margin: auto;
+	font-family: barlow, trebuchet ms, sans serif;
+	text-align: center;
+	line-height: 30px;
+}
+.labelinscription, .labelmodlesinfos, .labelmodlad, .labelmodlmdp
+{
+	color: RGB(0,0,0);
+	font-family: barlow, trebuchet ms, sans serif;
+}
+#tinscription
+{
+	width: 12%;
+	margin: auto;
+	font-size: 1.8em;
+	font-family: barlow, trebuchet ms, sans serif;
+	margin-bottom: 20px; 
+}
+.photomlp
+{
+	width: 828px;
+	margin: auto;
+	font-family: barlow, trebuchet ms, sans serif;
+	text-align: center;
+	line-height: 30px;
+	height: 174px;
+}
+.photomlp2
+{
+	float: left;
+	margin: 16px;
+	height: 100px;
+	width: 100px;
+}
+.tsorties, .tsortiestype, .trecuperermdp
+{
+	font-family: barlow, trebuchet ms, sans serif;
+	font-size: 1.8em;
+}
+.tsorties
+{
+	margin: 0px 0px 0px 0px;
+}
+#tmodlesinfos, #tmodlad, #tmodlmdp
+{
+	width: 55%;
+	margin: auto;
+	font-size: 1.4em;
+	text-align: center;
+}
+.radioinscription
+{
+	position: relative;
+	left: 65px;
+}
+.envoyerannuler, .envoyermodlesinfos, .envoyermodlad, .envoyermodlmdp
+{
+	width: 53%;
+	margin: auto;
+	margin-top: 7px;
+}
+.ainscription, .asorties, .asortiestype, .aprofil, .amodlesinfos, .amodlesinfos2, .amodlad, .amodlmdp, .aaide, .anavaide, .aconv, .aconvb, .ames, .amaison, .a_rgr, .aspo
+{
+	text-decoration: none;
+	color: RGB(47,146,252);
+	font-family: barlow, trebuchet ms, sans serif;
+}
+.ainscription:hover, .asorties:hover, .asortiestype:hover, .aprofil:hover, .amodlesinfos:hover, .amodlesinfos2:hover, .amodlad:hover, .amodlmdp:hover,
+ .aaide:hover, .anavaide:hover, .aconv:hover, .aconvb:hover, .ames:hover, .amaison:hover, .a_rgr:hover, .aspo:hover
+{
+	text-decoration: underline;
+	color: RGB(252,210,0);
+	font-family: barlow, trebuchet ms, sans serif;
+}
+.ainscription:active, .asorties:active, .asortiestype:active, .aprofil:active, .amodlesinfos:active, .amodlesinfos2:active, .amodlad:active, .amodlmdp:active,
+ .aaide:active, .anavaide:active, .aconv:active, .aconvb:active, .ames:active, .amaison:active, .a_rgr:active, .aspo:active
+{
+	text-decoration: underline;
+	color: RGB(252,210,0);
+	font-family: barlow, trebuchet ms, sans serif;
+}
+.ainscription, .aprofil, .amodlesinfos, .amodlad, .amodlmdp, .anavaide, .aconv, .aconvb, .ames, .amaison
+{
+	font-size: 1em;
+}
+.ainscription:hover, .aprofil:hover, .amodlesinfos:hover, .amodlad:hover, .amodlmdp:hover,
+ .aaide:hover, .anavaide:hover, .aconv:hover, .aconvb:hover, .ames:hover, .amaison:hover
+{
+	font-size: 1em;
+}
+.ainscription:active, .aprofil:active, .amodlesinfos:active, .amodlad:active, .amodlmdp:active,
+ .aaide:active, .anavaide:active, .aconv:active, .aconvb:active, .ames:active, .amaison:active
+{
+	font-size: 1em;
+}
+.asorties, .asorties:hover, .asorties:active, .asortiestype, .asortiestype:hover, .asortiestype:active, .amodlesinfos2, .amodlesinfos2:hover, .amodlesinfos2:active
+{
+	font-size: 1.4em; 
+}
+.s_p_margin
+{
+	margin-top : 20px;
+}
+.boutonsorties, .boutonsortiestype
+{
+	border: 1px solid RGB(155,198,69);
+	background-color: RGB(155,198,69); 
+	color: white;
+	height: 40px; 
+	width: 120px;
+	font-size: 1em;  
+	border-radius: 5px; 
+	box-shadow: 3px 3px 7px RGB(109,141,44); 
+}
+.boutonsorties:hover, .boutonsortiestype:hover
+{
+	border: 1px solid RGB(155,198,69);
+	background-color: RGB(155,198,69); 
+	color: white;
+	height: 40px; 
+	width: 120px;
+	font-size: 1em;  
+	border-radius: 5px;
+	box-shadow: 2px 2px 7px RGB(109,141,44); 
+}
+.boutonsorties:active, .boutonsortiestype:active
+{
+	border: 1px solid RGB(155,198,69);
+	background-color: RGB(155,198,69); 
+	color: white;
+	height: 40px; 
+	width: 120px;
+	font-size: 1em;  
+	border-radius: 5px;
+	box-shadow: 2px 2px 7px RGB(109,141,44); 
+}
+ .boutonsortiestype2, .boutonamais, .boutonprofil, .boutoninfosperso, .boutonmodlaphoto,
+ .boutonmodlesinfos, .boutonmodlad, .boutonmodlmdp, .boutonconv, .boutonconvb, .boutonmes
+{
+	border: 1px solid RGB(155,198,69);
+	background-color: RGB(155,198,69); 
+	color: white;
+	font-size: 1em;  
+	border-radius: 5px;
+	box-shadow: 3px 3px 7px RGB(109,141,44); 
+}
+ .boutonsortiestype2:hover, .boutonamais:hover, .boutonprofil:hover, .boutoninfosperso:hover, .boutonmodlaphoto:hover,
+ .boutonmodlesinfos:hover, .boutonmodlad:hover, .boutonmodlmdp:hover, .boutonconv:hover, .boutonconvb:hover, .boutonmes:hover
+{
+	border: 1px solid RGB(155,198,69);
+	background-color: RGB(155,198,69); 
+	color: white;
+	font-size: 1em;  
+	border-radius: 5px;
+	box-shadow: 2px 2px 7px RGB(109,141,44); 
+}
+.boutonsortiestype2:active, .boutonamais:active, .boutonprofil:active, .boutoninfosperso:active, .boutonmodlaphoto:active,
+ .boutonmodlesinfos:active, .boutonmodlad:active, .boutonmodlmdp:active, .boutonconv:active, .boutonconvb:active, .boutonmes:active
+{
+	border: 1px solid RGB(155,198,69);
+	background-color: RGB(155,198,69); 
+	color: white;
+	font-size: 1em;  
+	border-radius: 5px;
+	box-shadow: 2px 2px 7px RGB(109,141,44); 
+}
+.bouton_gr, .bouton_rgr
+{
+	border: 1px solid RGB(155,198,69);
+	background-color: RGB(155,198,69); 
+	color: white;
+	font-size: 1em;  
+	border-radius: 5px;
+	box-shadow: 3px 3px 7px RGB(109,141,44); 
+}
+.bouton_gr:hover, .bouton_rgr:hover
+{
+	border: 1px solid RGB(155,198,69);
+	background-color: RGB(155,198,69); 
+	color: white;
+	font-size: 1em;  
+	border-radius: 5px;
+	box-shadow: 2px 2px 7px RGB(109,141,44); 
+}
+.bouton_gr:active, .bouton_rgr:active
+{
+	border: 1px solid RGB(155,198,69);
+	background-color: RGB(155,198,69); 
+	color: white;
+	font-size: 1em;  
+	border-radius: 5px;
+	box-shadow: 2px 2px 7px RGB(109,141,44); 
+}
+.boutonsorties2, .boutonnom, .boutonsortiestype3, .boutonoptioninvit
+{
+	border: 1px solid RGB(47,146,252);
+	background-color: RGB(47,146,252); 
+	color: white;
+	font-size: 1em;  
+	border-radius: 5px; 
+	box-shadow: 3px 3px 7px RGB(2,83,172); 
+}
+.boutonsorties2:hover, .boutonnom:hover, .boutonsortiestype3:hover, .boutonoptioninvit:hover
+{
+	border: 1px solid RGB(47,146,252);
+	background-color: RGB(47,146,252); 
+	color: white;
+	font-size: 1em;  
+	border-radius: 5px;
+	box-shadow: 2px 2px 7px RGB(2,83,172); 
+}
+.boutonsorties2:active, .boutonnom:active, .boutonsortiestype3:active, .boutonoptioninvit:active
+{
+	border: 1px solid RGB(47,146,252);
+	background-color: RGB(47,146,252); 
+	color: white;
+	font-size: 1em;  
+	border-radius: 5px;
+	box-shadow: 2px 2px 7px RGB(2,83,172); 
+}
+.boutonnom2
+{
+	margin-bottom : 4px;
+}
+.boutoninscription
+{
+	border: 1px solid RGB(155,198,69);
+	background-color: RGB(155,198,69); 
+	color: white;
+	height: 40px; 
+	min-width: 80px;
+	font-size: 1em;  
+	border-radius: 5px;
+	box-shadow: 3px 3px 7px RGB(109,141,44); 
+}
+.boutoninscription:hover
+{
+	border: 1px solid RGB(155,198,69);
+	background-color: RGB(155,198,69); 
+	color: white;
+	height: 40px; 
+	min-width: 80px;
+	font-size: 1em;  
+	border-radius: 5px; 
+	box-shadow: 2px 2px 7px RGB(109,141,44); 
+}
+.boutoninscription:active
+{
+	border: 1px solid RGB(155,198,69);
+	background-color: RGB(155,198,69); 
+	color: white;
+	height: 40px; 
+	min-width: 80px;
+	font-size: 1em;  
+	border-radius: 5px; 
+	box-shadow: 2px 2px 7px RGB(109,141,44); 
+}
+.pinfosperso, .pmodlaphoto
+{
+	text-align: center;
+}
+.form
+{
+	margin: 0px;
+}
+.div1profil, .div2profil, .div1conv, .div2conv, .div1convb, .div2convb, .div1mes, .div2mes, .div1amais, .div2amais, .div1ajt, .div2ajt
+{
+	display: inline-block;
+}
+.div1profil, .div1conv, .div1convb, .div1mes, .div1amais, .div1ajt, .div2ajt
+{
+	width: 37%;
+}
+.div2profil, .div2conv, .div2convb, .div2mes, .div2amais, .div2ajt
+{
+	vertical-align: top;
+	width: 62%;
+}
+.div2_gr, .div2_vds
+{
+	vertical-align: top;
+	width: 100%;
+	text-align: center;
+	margin-right: 0px; 
+}
+.linavaide
+{
+	display: inline;
+	margin-right: 20px;
+}
+.ecart
+{
+	margin-bottom: 0px; 
+	margin-right: 0px;
+}
+.div4reco
+{
+	display: inline-block;
+	width: 49.5%;
+	text-align: center; 
+}
+.div4reco_l
+{
+	display: inline-block;
+	width: 99.5%;
+	text-align: center; 
+}
+.div5presen, .div6presen
+{
+	display: inline-block;
+}
+.div5presen
+{
+	width: 34%;
+	text-align: left; 
+}
+.div6presen
+{
+	text-align: center;
+	vertical-align: top;
+	width: 65.4%;
+}
+.div7presen, .div3relations
+{
+	display: inline-block; 
+	margin-right: 12px; 
+}
+.div8abo
+{
+	text-align: center; 
+}
+.div7presen2
+{
+	display: inline-block; 
+	margin-right: 12px; 
+}
+.div9cadre
+{
+	background-color: RGB(245,245,245);
+	font-family: barlow, trebuchet ms, sans serif;
+	padding: 15px; 
+	border: 3px RGB(155,198,69) solid;  
+}
+.div9cadre2
+{
+	background-color: RGB(245,245,245);
+	font-family: barlow, trebuchet ms, sans serif;
+	padding: 15px; 
+	border: 3px RGB(155,198,69) solid; 
+	text-align: justify; 
+}
+.div9cadre3
+{
+	background-color: RGB(245,245,245);
+	font-family: barlow, trebuchet ms, sans serif;
+	padding: 15px; 
+	border: 3px RGB(252,210,0) solid; 
+	text-align: justify; 
+}
+.div9cadre4
+{
+	background-color: RGB(245,245,245);
+	font-family: barlow, trebuchet ms, sans serif;
+	border: 3px RGB(155,198,69) solid; 
+	text-align: justify; 
+}
+.div10cadre
+{
+	margin: 0px 0px 15px 15px; 
+	text-align: center; 
+}
+.div10cadre2
+{
+	margin: 0px 0px 15px 38px; 
+	text-align: center; 
+}
+.div11cadre
+{
+	text-align: center;
+}
+.div12cadre
+{
+	margin: 0px 0px 15px 0px;
+}
+.div12cadre2
+{
+	margin: 0px 12px 15px 0px;
+}
+.divsortietype
+{
+	width: 26.5%;
+}
+.taille
+{
+	font-size: 1.4em;  
+}
+.taille:hover
+{
+	font-size: 1.4em;
+}
+.taille:active
+{
+	font-size: 1.4em;
+}
+.taille2
+{
+	font-size: 1.4em; 
+}
+.taille2:hover
+{
+	font-size: 1.4em; 
+}
+.taille2:active
+{
+	font-size: 1.4em; 
+}
+.taille3
+{
+	font-size: 0.7em;  
+}
+.taille3:hover
+{
+	font-size: 0.7em;  
+}
+.taille3:hover
+{
+	font-size: 0.7em;  
+}
+.center
+{
+	text-align: center;
+}
+.fontfamily
+{
+	font-family: barlow, trebuchet ms, sans serif;
+}
+#sectionindex
+{
+	padding-top: 0px; 
+}
+#divindex1
+{
+	margin-bottom: 20px;
+}
+#divindex2
+{
+	text-align: center;
+	line-height: 1.7em; 
+}
+#divindex3
+{
+	text-align: center;
+	margin-bottom: 20px;	
+}
+#divindex4
+{
+	margin-bottom: 15px; 
+}
+#divindex5
+{ 
+}
+#divsortie1
+{
+	width: 34%;
+	margin-bottom: 50px;
+	display: inline-block;
+}
+#divsortie2
+{
+	width: 55%;
+	display: inline-block;
+	vertical-align: 520%;
+	padding-left: 30px;
+}
+#psortie1
+{
+	font-family: barlow, trebuchet ms, sans serif;
+	font-size: 1.6em;
+	text-align: center;
+}
+#divsortietype1
+{
+	width: 34%;
+	margin-bottom: 50px;
+	margin-right: 12px;
+	display: inline-block;
+}
+#divsortietype2
+{
+	width: 55%;
+	display: inline-block;
+	vertical-align: 535%;
+	padding-left: 30px;
+}
+#psortietype1
+{
+	font-family: barlow, trebuchet ms, sans serif;
+	font-size: 1.6em;
+	text-align: center;
+}
+.minwidth
+{
+	min-width: 29.133%;
+}
+.menu .ul {
+ margin:0;
+ padding:0;
+ list-style-type:none;
+ }
+.menu .li {
+ float:left;
+ margin:auto;
+ padding:0;
+ 
+ }
+.menu .li .a {
+ display:block;
+ text-decoration: none;
+ margin-left: 55px;
+ margin-right: 55px; 
+ }
+ .aheaderc2
+ {
+	color: RGB(47,146,252);
+	text-decoration: none;	 
+	font-family: trebuchet ms, sans serif;
+	font-size: 1.3em;	
+ }
+ .t1
+ {
+	 width: 270px; 
+ }
+ .t2
+ {
+	width: 195px; 
+ }
+ .t3
+ {
+	width: 215px; 
+ }
+ .t4
+ {
+	width: 188px; 
+ }
+ .t5
+ {
+	width: 133.22px; 
+ }
+ .m2
+ {
+	text-align: center; 
+	background-color: RGB(245,245,245);
+	border: 3px RGB(252,210,0) solid; 	
+ }
+ .aheaderc2:hover
+ {
+	 color: RGB(252,210,0);
+	 text-decoration: none;
+	font-family: trebuchet ms, sans serif;
+	font-size: 1.3em;
+ }
+ .menu .ul .li .ul
+ {
+	display: none; 
+ }
+ .menu .ul .li:hover .ul {
+ display:block;
+ }
+.menu .li:hover .ul .li {
+ float:none;
+ }
+ .menu .li .ul {
+ position:absolute;
+ }
+ slider
+ {
+	display: block;
+	width: 1142px;
+	height: 535px;
+	background-color: #1f1f1f;
+	overflow: hidden;
+ }
+ slider > *
+ {
+	 display: block;
+	 width: 1142px;
+	height: 535px;
+	background-color: #1f1f1f;
+	overflow: hidden;
+	position: absolute;
+ }
+ slide p
+ {
+	font-family: 'barlow';
+	src: url('barlow/Barlow-Light.otf'); 
+	font-size: 50px;
+	text-align: center;
+	vertical-align: top;
+	display: inline-block;
+	width: 100%;
+	color: #fff;
+ }

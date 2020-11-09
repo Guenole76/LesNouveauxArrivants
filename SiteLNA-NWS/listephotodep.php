@@ -1,0 +1,11 @@
+<option value="">Liste de photos de profil</option>
+	<option value="1">La Libellule</option>
+	<option value="2">Le Couple</option>
+	<option value="3">Le Feu</option>
+	<option value="4">Les Moutons</option>
+	<option value="5">L'Oiseau</option>
+	<option value="6">La Main dans le sable</option>
+	<option value="7">La Nuit éclairée</option>
+	<option value="8">La Patrouille de France</option>
+	<option value="9">La Tour Jeanne d'Arc</option>
+	<option value="10">Les Trois verres</option>
